@@ -22,7 +22,7 @@ A computational method for 3D shape-guided bioisosteric replacements and scaffol
 
  - Allows scaffold-hopping with fragments that have more than two substituents
 
- - Provides the superimposition of bioisosteres on the input molecular structure
+ - Provides the superimposition of bioisosteres on the input molecular structure, which is kept as the reference coordinates
 
  - Provides similarity scores
 
