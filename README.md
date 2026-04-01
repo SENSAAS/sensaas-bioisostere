@@ -74,3 +74,13 @@ Retrieve and unzip sensaas-flex repository. The directory containing executables
 ## MacOS
 
 	Not tested
+
+
+## Molecular viewer
+
+We suggest you install a molecular viewer so you can visualize the molecular alignments.
+
+PyMOL is a well-known software program for molecular visualisation available for Windows, Linux or macOS. More information at [PyMOL Wiki](https://pymolwiki.org) or [https://pymol.org/](https://pymol.org/)
+
+Of note, we had trouble installing PyMOL in the current conda environment (python 3.7 and open3D 0.12.0). The installation method described in [sensaas-py](https://github.com/SENSAAS/sensaas-py/blob/main/) no longer works.
+
