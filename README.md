@@ -84,3 +84,12 @@ PyMOL is a well-known software program for molecular visualisation available for
 
 Of note, we had trouble installing PyMOL in the current conda environment (python 3.7 and open3D 0.12.0). The installation method described in [sensaas-py](https://github.com/SENSAAS/sensaas-py/blob/main/) no longer works.
 
+
+##  SENSAAS and SENSAAS-Flex
+
+Readme, documentation and tutorials are available at the GitHub repository [sensaas-flex](https://github.com/SENSAAS/sensaas-flex/blob/main/)
+
+## SENSAAS-Bioisostere
+
+
+
