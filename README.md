@@ -87,7 +87,8 @@ Of note, we had trouble installing PyMOL in the current conda environment (pytho
 
 ##  SENSAAS and SENSAAS-Flex
 
-Readme, documentation and tutorials are available in the GitHub repository [sensaas-flex](https://github.com/SENSAAS/sensaas-flex/blob/main/)
+Readme, documentation and tutorials are available in the GitHub repository [sensaas-flex](https://github.com/SENSAAS/sensaas-flex/blob/main/) or in the documentation at [https://github.com/SENSAAS/sensaas-bioisostere/docs/SENSAAS-Bioisostere-documentation.pdf](https://github.com/SENSAAS/sensaas-bioisostere/blob/main/docs/SENSAAS-Bioisostere-documentation.pdf)
+
 
 ## SENSAAS-Bioisostere
 
