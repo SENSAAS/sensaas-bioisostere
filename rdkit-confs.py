@@ -1,0 +1,38 @@
+#!/usr/bin/python3.7
+
+#execute ./<>.py sdf_file nbconf sdf_outputname  
+
+import os, sys
+from rdkit import Chem
+from rdkit.Chem import AllChem
+
+# sys.argv[0] is the name of the program itself
+molecule=sys.argv[1]
+nbconf=int(sys.argv[2])
+output=sys.argv[3]
+
+#######################################
+# MAIN program
+
+#m = Chem.MolFromMolFile(molecule)
+m = Chem.SDMolSupplier(molecule,removeHs=False)
+#remove H
+#m = Chem.SDMolSupplier(molecule)
+w = Chem.SDWriter(output)
+
+for mi in m:
+    #to read stereochemistry from 3D coordinates:
+    #AssignAtomChiralTagsFromStructure(RDKit::ROMol {lvalue} mol, int confId=-1, bool replaceExistingTags=True)
+    Chem.AssignAtomChiralTagsFromStructure(mi)
+
+    cids = AllChem.EmbedMultipleConfs(mi, numConfs=nbconf, randomSeed=1234,pruneRmsThresh=1)
+    #print(len(cids))	
+    for mj in cids:
+        AllChem.MMFFOptimizeMolecule(mi,confId=mj)
+        w.write(mi,confId=mj)
+
+w.flush()
+w.close()
+#print ("Done (see %s)" % output)
+
+#######################################
