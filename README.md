@@ -62,6 +62,8 @@ Retrieve and unzip sensaas-bioisostere repository in your desired folder. See be
 
 ## Linux
 
+Scripts written in Perl are used in SENSAAS-Flex and SENSAAS-Bioisostere, thus, check for a Perl package on your system.
+
 Install:
 
 1. Python3.7 and numpy
