@@ -98,6 +98,8 @@ Readme, documentation and tutorials are available in the GitHub repository [sens
 
 **Example: Scaffold hopping of type 4 to optimize inhibitors of ATR kinase**
 
+[Publication](https://doi.org/10.1021/acs.jmedchem.4c00734) 
+
 ![example](/images/ATR-kinase.png)
 
 Following files are in the folder examples:
