@@ -163,6 +163,7 @@ In the db folder, 7 libraries of fragments are available. They were extracted fr
 
 Table 1. Description of the 7 libraries of fragments extracted from bioactive molecules.
 
+.. list-table::
  * - **Library name**
    - **Number of fragments**
    - **Features of the fragments**
