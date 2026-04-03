@@ -119,6 +119,32 @@ Those numbers correspond to the highlighted atoms in the SDF file 7jjg_B_VCD.sdf
 
 ![example](/images/fragment-numbers.png)
 
+**1b-** Secondly, use the following script to split the reference molecule into fragments. It tries to identify the fragment to replace by using the list of atoms from the file list-atoms-7jjg_B_VCD.
 
+The syntax is:
+
+	perl lea3d-MAKE_FGTS_LIB.pl <reference.sdf> <file with the list of atoms you want to replace> 
+
+Example:
+
+	perl lea3d-MAKE_FGTS_LIB.pl examples/7jjg_B_VCD.sdf examples/list-atoms-7jjg_B_VCD 
+
+Here, the script creates 2 files : make_fgts_aggreg.sdf that contains 5 fragments and lib1.sdf that contains 4 fragments. 
+
+Each SDF file contains the ensemble of fragments that can be combined to rebuild the reference molecule. This enables one fragment to be replaced by a bioisosteric fragment, after which the molecule can be rebuilt with all the other fragments remaining intact.
+
+The output at your prompt may look like:
+
+	lib1.sdf contains 4 fgts
+	list of atoms to match: 2 3 4 5 22 23 18 20 21 in ../sensaas-bioisostere-main/examples/7jjg_B_VCD.sdf (fragmented in make_fgts_aggreg.sdf)
+	2 fragments match the list of atoms
+	Results:
+	lib1.sdf fgt 2
+	make_fgts_aggreg.sdf
+
+The first line after the "Results:" tag indicates that the fragment number 2 in lib1.sdf seems to correspond to the list of selected atoms in text file list-atoms-7jjg_B_VCD. 
+Visualize the file lib1.sdf by using a molecular viewer and check that the fragment number 2 is indeed the fragment you want to replace. For example, with PyMOL:
+
+![example](/images/lib1-2.png)
 
 
