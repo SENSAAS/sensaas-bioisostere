@@ -108,6 +108,17 @@ The file list-atoms-7jjg_B_VCD contains the number of the atoms of the fragment 
 
 The file AD1058.sdf is the synthesized bioisostere extracted from the publication and aligned on the AZ20 using SENSAAS-Flex.
 
+**1. Create an SDF file containing the fragments that constitute your molecule**
+
+**1a-** Firstly, use a molecular viewer to identify the number of atoms in the fragment that you want to replace. Then, write each number in a text file, separating them by a space. 
+In our example, the file list-atoms-7jjg_B_VCD contains the following numbers: 
+
+	2 3 4 5 22 23 18 20 21
+	
+Those numbers correspond to the highlighted atoms in the SDF file 7jjg_B_VCD.sdf as follows:
+
+![example](/images/fragment-numbers.png)
+
 
 
 
