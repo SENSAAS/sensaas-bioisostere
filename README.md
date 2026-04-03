@@ -100,6 +100,14 @@ Readme, documentation and tutorials are available in the GitHub repository [sens
 
 ![example](/images/ATR-kinase.png)
 
+Following files are in the folder examples:
+
+The file 7jjg_B_VCD.sdf is the AZ20 molecule extracted from the publication. Coordinates of the ligand (VCD) were extracted from the co-structure PDB 7JJG [PDB entry](https://www.rcsb.org/structure/7JJG). It is the reference (or input) molecule.
+
+The file list-atoms-7jjg_B_VCD contains the number of the atoms of the fragment to replace in molecule 7jjg_B_VCD.sdf.
+
+The file AD1058.sdf is the synthesized bioisostere extracted from the publication and aligned on the AZ20 using SENSAAS-Flex.
+
 
 
 
