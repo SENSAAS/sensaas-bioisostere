@@ -151,6 +151,8 @@ Visualize the file lib1.sdf by using a molecular viewer and check that the fragm
 
 ![example](/images/lib1-2.png)
 
+Figure: the second fragment is shown in magenta
+
 Of note, you can choose another fragment to replace by selecting the lib name (lib1.sdf or make_fgts_aggreg.sdf) and by selecting the number of the fragment in the sdf file.
 
 **2.Virtual screening of fragment libraries to identify bioisosteres for your selected fragment, followed by alignment of the bioisosteres on the input molecule**
