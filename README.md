@@ -67,7 +67,7 @@ Install:
 1. Python3.7 and numpy
 2. Open3D version 0.12.0 (more information at [http://www.open3d.org/docs/release/getting_started.html](http://www.open3d.org/docs/release/getting_started.html))
 
-The open-Source Cheminformatics Software RDKit must be installed. More information on RDKit can be found at [https://www.rdkit.org/docs/Install.html](https://www.rdkit.org/docs/Install.html) 
+The open-Source Cheminformatics Software RDKit must be installed (eg: version 2022.9.5). More information on RDKit can be found at [https://www.rdkit.org/docs/Install.html](https://www.rdkit.org/docs/Install.html) 
 
 3. RDKit
   
