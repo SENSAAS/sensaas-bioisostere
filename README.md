@@ -197,4 +197,46 @@ Figure: one bioisostere possess a pyrrolo pyrimidine scaffold (in magenta). It i
 Here, we show that SENSAAS-bioisostere found a pyrrolo pyrimidine fragment to replace the pyrimidine + cyclopropane fragment in AZ20 (7jjg_B_VCD.sdf) thus, reproducing the scaffold-hopping step described in the publication. When screened against larger libraries (see libraries in folder db), several other fragment bioisosteres can be identified. Those could also be interesting alternatives to the pyrimidine core.
 
 
+## Licenses
+SENSAAS code is released under [the 3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause)
+
+## Copyright
+Copyright (c) 2018-2021, CNRS, Inserm, Université Côte d'Azur, Dominique Douguet and Frédéric Payan, All rights reserved.
+
+## Reference
+[Biyuzan et al., SENSAAS-Flex: a joint optimization approach for aligning 3D shapes and exploring the molecular conformation space, *Bioinformatics*, **2024**, 40, 3](https://doi.org/10.1093/bioinformatics/btae105)
+
+Bibtex format :
+
+	@article{10.1093/bioinformatics/btae105,
+    author = {Biyuzan, Hamza and Masrour, Mohamed-Akram and Grandmougin, Lucas and Payan, Frédéric and Douguet, Dominique},
+    title = {SENSAAS-Flex: a joint optimization approach for aligning 3D shapes and exploring the molecular conformation space},
+    journal = {Bioinformatics},
+    volume = {40},
+    number = {3},
+    pages = {btae105},
+    year = {2024},
+    month = {02},
+    doi = {10.1093/bioinformatics/btae105},
+    url = {https://doi.org/10.1093/bioinformatics/btae105},
+    eprint = {https://academic.oup.com/bioinformatics/article-pdf/40/3/btae105/56886864/btae105.pdf},
+	}
+
+[Douguet D. and Payan F., SenSaaS: Shape-based Alignment by Registration of Colored Point-based Surfaces, *Molecular Informatics*, **2020**, 8, 2000081](https://onlinelibrary.wiley.com/doi/full/10.1002/minf.202000081)
+   
+Bibtex format :
+
+	@article{10.1002/minf.202000081,
+	author 		= {Douguet, Dominique and Payan, Frédéric},
+	title 		= {sensaas: Shape-based Alignment by Registration of Colored Point-based Surfaces},
+	journal 	= {Molecular Informatics},
+	volume 		= {39},
+	number 		= {8},
+	pages 		= {2000081},
+	keywords 	= {Shape-based alignment, molecular surfaces, point clouds, registration, molecular similarity},
+	doi 		= {https://doi.org/10.1002/minf.202000081},
+	url 		= {https://onlinelibrary.wiley.com/doi/abs/10.1002/minf.202000081},
+	eprint 		= {https://onlinelibrary.wiley.com/doi/pdf/10.1002/minf.202000081},
+	year 		= {2020}
+	}
 
