@@ -3,7 +3,8 @@ A computational method for 3D shape-guided bioisosteric replacements and scaffol
 
 [![badgepython](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/downloads/release/python-370/)  [![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)](https://chemoinfo.ipmc.cnrs.fr/)
 
-**SENSAAS** is a shape-based alignment method which allows to superimpose molecules in a rigid or flexible manner, respectively. It is based on the publications [SenSaaS: Shape-based Alignment by Registration of Colored Point-based Surfaces](https://onlinelibrary.wiley.com/doi/full/10.1002/minf.202000081) and [SENSAAS-Flex: a joint optimization approach for aligning 3D shapes and exploring the molecular conformation space](https://doi.org/10.1093/bioinformatics/btae105). SENSAAS-Bioisostere is an add-on of SENSAAS and SENSAAS-Flex that specifically replaces a query fragment by a new molecular fragment extracted from known bioactive molecules.
+**SENSAAS** is a shape-based alignment method which allows to superimpose molecules in a rigid or flexible manner, respectively. It is based on the publications [SenSaaS: Shape-based Alignment by Registration of Colored Point-based Surfaces](https://onlinelibrary.wiley.com/doi/full/10.1002/minf.202000081) and [SENSAAS-Flex: a joint optimization approach for aligning 3D shapes and exploring the molecular conformation space](https://doi.org/10.1093/bioinformatics/btae105). 
+SENSAAS-Bioisostere is an add-on of SENSAAS and SENSAAS-Flex that specifically replaces a query fragment by a new molecular fragment extracted from known bioactive molecules.
 
 
 ![example](/images/alignment.png)
@@ -56,7 +57,7 @@ Install RDKit (Open-Source Cheminformatics Software) that is compatible with Pyt
 	pip install rdkit-pypi
 	
 
-Retrieve and unzip sensaas-flex repository in your desired folder. See below for running the programs **sensaas.py** or **meta-sensaas.py** for using the rigid version or **sensaasflex.py** or **meta-sensaasflex.py** for using the flexible version. The directory containing executables is called sensaas-flex-main.
+Retrieve and unzip sensaas-bioisostere repository in your desired folder. See below for running the programs **sensaas.py** or **meta-sensaas.py** for using the rigid version, **sensaasflex.py** or **meta-sensaasflex.py** for using the flexible version and **sensaas-bioisostere.pl** for scaffold-hopping. The directory containing executables is called sensaas-bioisostere-main.
 
 ## Linux
 
@@ -69,7 +70,7 @@ The open-Source Cheminformatics Software RDKit must be installed. More informati
 
 3. RDKit
   
-Retrieve and unzip sensaas-flex repository. The directory containing executables is called sensaas-flex-main.
+Retrieve and unzip sensaas-bioisostere repository. The directory containing executables is called sensaas-bioisostere-main.
 
 ## MacOS
 
