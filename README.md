@@ -145,6 +145,56 @@ The output at your prompt may look like:
 The first line after the "Results:" tag indicates that the fragment number 2 in lib1.sdf seems to correspond to the list of selected atoms in text file list-atoms-7jjg_B_VCD. 
 Visualize the file lib1.sdf by using a molecular viewer and check that the fragment number 2 is indeed the fragment you want to replace. For example, with PyMOL:
 
+	pymol lib1.sdf
+
 ![example](/images/lib1-2.png)
+
+Of note, you can choose another fragment to replace by selecting the lib name (lib1.sdf or make_fgts_aggreg.sdf) and by selecting the number of the fragment in the sdf file.
+
+**2.Virtual screening of fragment libraries to identify bioisosteres for your selected fragment, followed by alignment of the bioisosteres on the input molecule**
+
+The syntax is:
+
+	perl sensaas-bioisostere.pl <reference.sdf> <file with fragments extracted from reference.sdf> <number of the fragment to replace> <library of fragment to screen>
+
+In the db folder, 7 libraries of fragments are available. They were extracted from approved drugs or co-crystallized ligands from the PDBbind dataset. Combinations are substructures composed of 2 or 3 fragments. A test libary called test.sdf is also available in the folder db.
+
+Table 1. Description of the 7 libraries of fragments extracted from bioactive molecules.
+
+Example:
+
+In our study, we will use a small library of 9 fragments called test (db/test.sdf):
+
+	perl sensaas-bioisostere.pl examples/7jjg_B_VCD.sdf lib1.sdf 2 db/test.sdf
+
+*Note 1: it takes about 1 hour to screen 500 fragments.*
+
+*Note 2: it has been observed that the minimization with the standard process (RDKit, MMFF94 force field, 2000 Minimization cycles) is sometimes insufficient, resulting in a slight distortion of the structure. Finding a suitable trade-off was necessary here because this step is time-consuming.*
+
+The output at your prompt may look like:
+
+	perl scripts in ../sensaas-bioisostere-main
+	SENSAAS-Bioisostere:
+	Target ../sensaas-bioisostere-main/examples/7jjg_B_VCD.sdf
+	4 fragments in lib1.sdf - referencex.sdf = libfgt_2.sdf contains the fragment to replace with 3 substituants
+	Library: 6 fragments in ../sensaas-bioisostere-main/db/test.sdf having >= 3 substitution positions
+	Screening using metasensaas (option -s mean -l 2)
+	4 built bioisosteres
+	Visualize the 4 aligned bioisosteres in ordered-bioisosteres-lib.sdf with PyMol (scores in ordered-bioisosteres-lib-score.txt) - Selected fragments from lib are in ordered-filtered-fragments-lib.sdf 		(scores in ordered-filtered-fragments-lib-score.txt)
+
+The script creates 2 files: ordered-bioisosteres-lib.sdf that contains best aligned bioisosteres and ordered-bioisosteres-lib-score.txt that contains scores by decreasing order of similarity score.
+
+**3. Visualization You can use any molecular viewer**
+
+For instance, you can use PyMOL if installed.
+
+	pymol 7jjg_B_VCD.sdf AD1058.sdf ordered-bioisosteres-lib.sdf
+
+![example](/images/bioisostere.png)
+
+Figure: one bioisostere possess a pyrrolo pyrimidine scaffold (in magenta). It is aligned on the input structure 7jjg_B_VCD.sdf (in green). The fitness score gfit+hfit = 1.54. It has the same molecular structure as AD1058.sdf.
+
+Here, we show that SENSAAS-bioisostere found a pyrrolo pyrimidine fragment to replace the pyrimidine + cyclopropane fragment in AZ20 (7jjg_B_VCD.sdf) thus, reproducing the scaffold-hopping step described in the publication. When screened against larger libraries (see libraries in folder db), several other fragment bioisosteres can be identified. Those could also be interesting alternatives to the pyrimidine core.
+
 
 
