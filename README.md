@@ -163,7 +163,7 @@ The syntax is:
 
 In the db folder, 7 libraries of fragments are available. They were extracted from approved drugs or co-crystallized ligands from the PDBbind dataset. Combinations are substructures composed of 2 or 3 fragments. A test libary called test.sdf is also available in the folder db.
 
-Table 1. Description of the 7 libraries of fragments extracted from bioactive molecules.
+Table 1. Description of the 7 libraries of fragments extracted from bioactive molecules
 
 ![example](/images/table1.png)
 
