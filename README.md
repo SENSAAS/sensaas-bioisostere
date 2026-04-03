@@ -96,5 +96,10 @@ Readme, documentation and tutorials are available in the GitHub repository [sens
 
 ## SENSAAS-Bioisostere
 
+**Example: Scaffold hopping of type 4 to optimize inhibitors of ATR kinase**
+
+![example](/images/ATR-kinase.png)
+
+
 
 
