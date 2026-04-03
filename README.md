@@ -163,40 +163,7 @@ In the db folder, 7 libraries of fragments are available. They were extracted fr
 
 Table 1. Description of the 7 libraries of fragments extracted from bioactive molecules.
 
-.. list-table::
-
- * - **Library name**
-   - **Number of fragments**
-   - **Features of the fragments**
-   - **Source**
- * - test.sdf
-   - 9
-   - 
-   - 
- * - drug.sdf
-   - 4509
-   - single fragments
-   - [e-Drug3D (2118 structures)](https://chemoinfo.ipmc.cnrs.fr/edrug3d)
- * - drug2.sdf
-   - 2542
-   - 2 combined fragments with MW ≤ 200
-   - [e-Drug3D (2118 structures)](https://chemoinfo.ipmc.cnrs.fr/edrug3d)
- * - drug3.sdf
-   - 2458
-   - 3 combined fragments with MW ≤ 200
-   - [e-Drug3D (2118 structures)](https://chemoinfo.ipmc.cnrs.fr/edrug3d)
- * - pdb.sdf
-   - 7990
-   - single fragments
-   - PDBbind (12046 structures)
- * - pdb2.sdf
-   - 8678
-   - 2 combined fragments with MW ≤ 200
-   - PDBbind (12046 structures)
- * - pdb3.sdf
-   - 10333
-   - 3 combined fragments with MW ≤ 200
-   - PDBbind (12046 structures)
+![example](/images/table1.png)
 
 Example:
 
