@@ -14,8 +14,7 @@ A computational method for 3D shape-guided bioisosteric replacements and scaffol
 
 **Documentation**: Full documentation is available at [https://github.com/SENSAAS/sensaas-bioisostere/docs/SENSAAS-Bioisostere-documentation.pdf](https://github.com/SENSAAS/sensaas-bioisostere/blob/main/docs/SENSAAS-Bioisostere-documentation.pdf)
 
-**Website**: A web server to use SENSAAS, SENSAAS-Flex or SENSAAS-Bioisostere is available at https://chemoinfo.ipmc.cnrs.fr
-
+**Website**: A web server providing easy‑to‑use online versions of SENSAAS, SENSAAS‑Flex or SENSAAS-Bioisostere is available at https://chemoinfo.ipmc.cnrs.fr
 
 ## Main features
 
