@@ -20,15 +20,15 @@ SENSAAS and SENSAAS-Flex are shape-based alignment softwares which allow to supe
 
  - Allows bioisosteric replacements and scaffold-hopping
 
- - Bioisosteres are selected based on their 3D shape and pharmacophoric features similarities
+ - Bioisosteres are selected based on their similarity in 3D shape and pharmacophoric features
 
  - Allows scaffold-hopping with fragments that have more than two substituents
 
- - Provides the superimposition of bioisosteres on the input molecular structure, which is kept as the reference coordinates
+ - Provides the superimposition of bioisosteres on the input molecular structure, which is kept as reference coordinates
 
  - Provides similarity scores
 
- - Is free and open source
+ - The code is free to use and fully open‑source
 
 
 ## Requirements
