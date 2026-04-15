@@ -105,6 +105,8 @@ Readme, documentation and tutorials are available in the GitHub repository [sens
 
 ![example](/images/ATR-kinase.png)
 
+![example](/images/ATR-kinase-inhibitors.png)
+
 Following files are in the folder examples:
 
 The file 7jjg_B_VCD.sdf is the AZ20 molecule extracted from the publication. Coordinates of the ligand (VCD) were extracted from the co-structure PDB 7JJG [PDB entry](https://www.rcsb.org/structure/7JJG). It is the reference (or input) molecule.
