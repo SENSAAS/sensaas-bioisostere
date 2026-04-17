@@ -52,6 +52,10 @@ Launch Anaconda Prompt, then complete the installation:
 	conda install python=3.7 numpy
 	conda install perl
 
+numpy version 1.21.5 and perl version 5.42.0.1 work. For example:
+
+	conda install anaconda::perl==5.42.0.1
+		
 Once Open3D downloaded:
   
  	conda install open3d-0.12.0-py37_0.tar.bz2
