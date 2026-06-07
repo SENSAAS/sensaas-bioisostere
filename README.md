@@ -218,7 +218,26 @@ SENSAAS code is released under [the 3-Clause BSD License](https://opensource.org
 ## Copyright
 Copyright (c) 2018-2021, CNRS, Inserm, Université Côte d'Azur, Dominique Douguet and Frédéric Payan, All rights reserved.
 
-## Reference
+## References
+
+[Somme et al., SENSAAS-Bioisostere: a computational method for 3D shape-guided bioisosteric replacements and scaffold-hopping, *European Journal of Medicinal Chemistry*, **2026**](https://doi.org/10.1016/j.ejmech.2026.119041)
+
+Bibtex format :
+
+	@article{10.1016/j.ejmech.2026.119041,
+    author = {Somme, Louis and Es Saim, Yacin and Payan, Frédéric and Douguet, Dominique},
+    title = {SENSAAS-Bioisostere: a computational method for 3D shape-guided bioisosteric replacements and scaffold-hopping},
+    journal = {European Journal of Medicinal Chemistry},
+    volume = {},
+    number = {},
+    pages = {},
+    year = {2026},
+    month = {},
+    doi = {10.1016/j.ejmech.2026.119041},
+    url = {https://doi.org/10.1016/j.ejmech.2026.119041},
+    eprint = {https://www.sciencedirect.com/science/article/pii/S0223523426004861},
+	}
+
 [Biyuzan et al., SENSAAS-Flex: a joint optimization approach for aligning 3D shapes and exploring the molecular conformation space, *Bioinformatics*, **2024**, 40, 3](https://doi.org/10.1093/bioinformatics/btae105)
 
 Bibtex format :
