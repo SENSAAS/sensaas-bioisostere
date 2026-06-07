@@ -224,18 +224,15 @@ Copyright (c) 2018-2021, CNRS, Inserm, Université Côte d'Azur, Dominique Dougu
 
 Bibtex format :
 
-	@article{10.1016/j.ejmech.2026.119041,
-    author = {Somme, Louis and Es Saim, Yacin and Payan, Frédéric and Douguet, Dominique},
-    title = {SENSAAS-Bioisostere: a computational method for 3D shape-guided bioisosteric replacements and scaffold-hopping},
-    journal = {European Journal of Medicinal Chemistry},
-    volume = {},
-    number = {},
-    pages = {},
-    year = {2026},
-    month = {},
-    doi = {10.1016/j.ejmech.2026.119041},
-    url = {https://doi.org/10.1016/j.ejmech.2026.119041},
-    eprint = {https://www.sciencedirect.com/science/article/pii/S0223523426004861},
+	@article{SOMME2026119041,
+	author = {Louis Somme and Yassin Es Saim and Frédéric Payan and Dominique Douguet},
+	title = {SENSAAS-Bioisostere: a computational method for 3D shape-guided bioisosteric replacements and scaffold-hopping},
+	journal = {European Journal of Medicinal Chemistry},
+	pages = {119041},
+	year = {2026},
+	doi = {https://doi.org/10.1016/j.ejmech.2026.119041},
+	url = {https://www.sciencedirect.com/science/article/pii/S0223523426004861},
+	eprint = {https://www.sciencedirect.com/science/article/pii/S0223523426004861},
 	}
 
 [Biyuzan et al., SENSAAS-Flex: a joint optimization approach for aligning 3D shapes and exploring the molecular conformation space, *Bioinformatics*, **2024**, 40, 3](https://doi.org/10.1093/bioinformatics/btae105)
